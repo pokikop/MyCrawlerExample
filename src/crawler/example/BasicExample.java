@@ -20,7 +20,7 @@ public class BasicExample {
 		CrawlerPack.setLoggerLevel(SimpleLog.LOG_LEVEL_OFF);
 
 		// 遠端資料路徑
-		String uri = "http://.../";
+		String uri = "http://210.69.115.180/collection/webpages/WebService/WSTransfer.ashx?op=GET&SN=26&key=C063E3968AF5458B&SAVE_TYPE=6";
 
 		System.out.println(
 				CrawlerPack.start()
@@ -35,7 +35,7 @@ public class BasicExample {
 			    //.getFromXml(uri)
 			    
 			    // 這兒開始是 Jsoup Document 物件操作
-			    .select(".css .selector ")
+			    //.select(".css .selector ")
 			    
 		);
 	}
